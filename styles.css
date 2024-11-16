@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    background-image: url('counterpurple.jpg'); /* Replace with your image path */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background stay fixed when scrolling */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0; /* Removes default body margins */
+}
+
+.bglightPurple {
+    display: flex; /* Ensure flex layout works properly */
+    flex-direction: column; /* Ensures children are stacked vertically */
+    justify-content: center; /* Aligns child elements vertically within the container */
+    text-align: center;
+    height: 25%; /* Keep existing height */
+    width: 30%; /* Keep existing width */
+    background-color: #9873AC; /* Keep existing background color */
+    margin: 0; /* Override previous margin to avoid displacement */
+    padding: 20px; /* Optional: Add padding for better spacing */
+    border-radius: 10px; /* Optional: Smooth corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for a polished look */
+}
+
+
+h2{
+    display: block;
+    text-align: center;
+    font-family: Helvatica; 
+    color: Black;
+    font-size: 3em;
+    margin: 3px ;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-family: Helvatica;
+}
+
+.btnContainer{
+    text-align: center;
+    padding: 10px;
+}
+
+.buttons{
+    padding: 5px 15px;
+    font-size: 1.25em;
+    color: Black;
+    background-color: rgb(177,162,202);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    font-family: Helvatica;
+}
+
+.buttons:hover{
+    background-color: rgb(104,71,141);
+}
+
+
+
