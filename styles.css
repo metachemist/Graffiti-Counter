@@ -65,7 +65,7 @@ h2 {
 @media (max-width: 768px) {
     .bglightPurple {
         width: 80%; /* Increase width for smaller screens */
-        height: 70%; /* Allow height to adjust based on content */
+        height: 40%; /* Allow height to adjust based on content */
         padding: 15px; /* Adjust padding */
     }
 
