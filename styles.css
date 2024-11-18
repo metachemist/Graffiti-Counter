@@ -25,8 +25,7 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for a polished look */
 }
 
-
-h2{
+h2 {
     display: block;
     text-align: center;
     font-family: Helvatica; 
@@ -35,32 +34,71 @@ h2{
     margin: 3px ;
 }
 
-#countLabel{
+#countLabel {
     display: block;
     text-align: center;
     font-size: 3em;
     font-family: Helvatica;
 }
 
-.btnContainer{
+.btnContainer {
     text-align: center;
     padding: 10px;
 }
 
-.buttons{
+.buttons {
     padding: 5px 15px;
     font-size: 1.25em;
     color: Black;
-    background-color: rgb(177,162,202);
+    background-color: rgb(177, 162, 202);
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.25s;
     font-family: Helvatica;
 }
 
-.buttons:hover{
-    background-color: rgb(104,71,141);
+.buttons:hover {
+    background-color: rgb(104, 71, 141);
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bglightPurple {
+        width: 80%; /* Increase width for smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 15px; /* Adjust padding */
+    }
 
+    h2 {
+        font-size: 2em; /* Reduce font size */
+    }
 
+    #countLabel {
+        font-size: 2em; /* Reduce font size */
+    }
+
+    .buttons {
+        padding: 10px; /* Adjust button padding */
+        font-size: 1em; /* Reduce font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .bglightPurple {
+        width: 70%; /* Maximize width on very small screens */
+        padding: 10px; /* Adjust padding further */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Further reduce font size */
+    }
+
+    #countLabel {
+        font-size: 1.5em; /* Further reduce font size */
+    }
+
+    .buttons {
+        padding: 8px; /* Adjust button padding */
+        font-size: 0.9em; /* Further reduce font size */
+    }
+}
